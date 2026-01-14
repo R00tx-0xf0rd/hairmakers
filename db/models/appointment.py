@@ -7,6 +7,7 @@ from sqlalchemy import (
     Integer,
     String,
     UniqueConstraint,
+    func,
 )
 from sqlalchemy.orm import Mapped, mapped_column
 
@@ -51,8 +52,9 @@ class Appointment(Base):
 
     created_at: Mapped[datetime] = mapped_column(
         DateTime(timezone=True),
-        default=datetime.utcnow,
         nullable=False,
+        default=datetime.now(),
+        server_default=func.now(),
     )
 
     __table_args__ = (

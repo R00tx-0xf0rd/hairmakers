@@ -20,9 +20,9 @@ class Service(Base):
 
     created_at: Mapped[datetime] = mapped_column(
         DateTime(timezone=True),
-        default=datetime.utcnow,
-        server_default=func.now(),
         nullable=False,
+        default=datetime.now(),
+        server_default=func.now(),
     )
 
     masters = relationship(
