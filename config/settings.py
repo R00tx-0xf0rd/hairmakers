@@ -22,6 +22,7 @@ class Settings(BaseSettings):
     PORT: str = None
     USER: str = None
     PASSWORD: str = None
+    INIT: bool = False
     echo: bool
     log_level: str = "INFO"
     log_format: str = (

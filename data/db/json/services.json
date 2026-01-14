@@ -1,0 +1,57 @@
+{
+"services": [
+	{
+		"name" : "woman_haircut",
+		"description" : "Стрижка женская",
+		"duration_minutes" : 20,
+		"is_active" : 1
+	},
+	{
+		"name" : "kid_haircut",
+		"description" : "Стрижка детская",
+		"duration_minutes" : 30,
+		"is_active" : 1
+	},
+	{
+		"name" : "man_haircut",
+		"description" : "Стрижка мужская",
+		"duration_minutes" : 20,
+		"is_active" : 1
+	},
+	{
+		"name" : "head_coloring",
+		"description" : "Окрашивание волос",
+		"duration_minutes" : 120,
+		"is_active" : 1
+	},
+	{
+		"name" : "head_highlighting",
+		"description" : "Мелирование волос",
+		"duration_minutes" : 180,
+		"is_active" : 1
+	},
+	{
+		"name" : "head_hard_coloring",
+		"description" : "Сложное окрашивание волос",
+		"duration_minutes" : 300,
+		"is_active" : 1
+	},
+	{
+		"name" : "short_hair_styling",
+		"description" : "Укладка коротких волос",
+		"duration_minutes" : 30,
+		"is_active" : 1
+	},
+	{
+		"name" : "long_hair_styling",
+		"description" : "Укладка длинных волос",
+		"duration_minutes" : 60,
+		"is_active" : 1
+	},
+	{
+		"name" : "hairstyle",
+		"description" : "Прическа",
+		"duration_minutes" : 120,
+		"is_active" : 1
+	}
+]}
