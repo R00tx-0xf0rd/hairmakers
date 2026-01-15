@@ -24,6 +24,12 @@ class Settings(BaseSettings):
     PASSWORD: str = None
     INIT: bool = False
     echo: bool
+    MASTERS_JSON: str = os.path.join(
+        os.path.dirname(os.path.abspath(__file__)), "..", "db", "dao", "masters.json"
+    )
+    SERVICES_JSON: str = os.path.join(
+        os.path.dirname(os.path.abspath(__file__)), "..", "db", "dao", "services.json"
+    )
     log_level: str = "INFO"
     log_format: str = (
         "{time:YYYY-MM-DD HH:mm:ss} | {level} | {module}:{line} | {message}"

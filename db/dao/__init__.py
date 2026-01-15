@@ -1,7 +1,8 @@
 from .base_dao import BaseDAO
-from .service_dao import ServiceDAO
+from .dao import ServiceDAO, MasterDAO
 
 __all__ = [
     "BaseDAO",
     "ServiceDAO",
+    "MasterDAO",
 ]
